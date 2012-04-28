@@ -1,0 +1,137 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+<meta charset="utf-8" />
+<title>View</title>
+
+<link rel="stylesheet" href="https://class.coursera.org/assets/core/css/main_minimal.css" />
+<link rel="stylesheet" href="https://spark-university.s3.amazonaws.com/stanford-compilers/static/css/main.css" />
+
+<script type="text/javascript" src="https://class.coursera.org/assets/core/js/jquery.js"></script>
+<script type="text/javascript" src="https://class.coursera.org/assets/core/js/hc_fix.js"></script>
+
+
+<link rel="stylesheet" href="https://class.coursera.org/assets/app/lecture/mediaelement/mediaelementplayer.css" />
+<script src="https://class.coursera.org/assets/app/lecture/mediaelement/mediaelement-and-player.js?config=default&version=20120210"></script>
+<link rel="stylesheet" href="https://class.coursera.org/assets/core/css/jquery_ui/jquery_ui.css" />
+<script src="https://class.coursera.org/assets/core/js/jquery_ui.js"></script>
+<script src="https://class.coursera.org/assets/core/js/get_query_parameters.js"></script>
+<link rel="stylesheet" href="https://class.coursera.org/assets/app/lecture/css/lecture_view.css?version=20120410" />
+<script src="https://class.coursera.org/assets/app/lecture/js/QL_Player.js?version=20120315"></script>
+<link rel="stylesheet" href="https://class.coursera.org/assets/app/lecture/css/btn.css" />
+<script src="https://class.coursera.org/assets/app/lecture/js/logger.js"></script>
+<script src="https://class.coursera.org/assets/app/lecture/js/init_logger.js?user_id=1&lecture_id=220395&session_id=ezu+tJ0B"></script>
+
+<script src="https://class.coursera.org/assets/app/lecture/js/slide_viewer.js?version=20120316"></script>
+<script src="https://class.coursera.org/assets/app/lecture/js/iframe_viewer.js?version=20120419"></script>
+<script src="https://class.coursera.org/assets/app/lecture/js/jquery.ba-tinypubsub.js"></script>
+<script src="https://class.coursera.org/assets/app/lecture/js/lecture_view.js?lecture_player=html5&lecture_speed=1&lecture_id=1&quiz_id=1&quiz_url=https%3A%2F%2Fclass.coursera.org%2Fcompilers%2Fquiz%2Fvideo_quiz_attempt&lecture_speed_url=https%3A%2F%2Fclass.coursera.org%2Fcompilers%2Fclass%2Fset_preferences&iframe_url=&version=20120410"></script>
+<script src="https://class.coursera.org/assets/core/js/mathjax2/MathJax.js?config=default&delayStartupUntil=configured"></script>
+<link rel="stylesheet" href="https://class.coursera.org/assets/app/lecture/css/slide_viewer.css?version=20120306" />
+<link rel="stylesheet" href="https://class.coursera.org/assets/core/css/sdbuttons.css" />
+<!--[if lte IE 8]><link rel="stylesheet" href="https://class.coursera.org/assets/core/css/sdbuttons-ie.css" /><![endif]-->
+<script src="https://class.coursera.org/assets/core/js/jquery.sdbuttons.js?config=default"></script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-28377374-1']);
+  _gaq.push(['_setDomainName', 'coursera.org']);
+  _gaq.push(['_setAllowLinker', true]);  
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</head>
+
+<body>
+    <div>
+        
+<div id="lecture_view_dialog" role="dialog" aria-labelledby="lecture_title">
+    
+<div id="lecture_title" class="hidden">01-01: Introduction (8m20s)</div>
+
+<div id="QL_player_container_first">
+    <div class="hidden" id="QL_aria_announcer' aria-live="assertive" aria-relevant="all"></div>
+    <video controls="controls"
+           preload="none"
+           autoplay="autoplay"
+           id="QL_video_element_first"
+           width="960"
+           height="540"
+           autobuffer="autobuffer">
+        <source type="video/mp4" src="how-to-led-blink-using-asm.m4v"></source>
+
+<source type="video/webm" src="http://d2bk0s8yylvsxl.cloudfront.net/stanford-compilers/recoded_videos%2F01-01-introduction%20%5B34f1d007%5D%20.webm"></source>
+<track kind="subtitles" srclang="en" src="https://class.coursera.org/compilers/lecture/subtitles?q=1_en"></track><track kind="subtitles" srclang="de" src="https://class.coursera.org/compilers/lecture/subtitles?q=1_de"></track><track kind="subtitles" srclang="es" src="https://class.coursera.org/compilers/lecture/subtitles?q=1_es"></track><track kind="subtitles" srclang="fr" src="https://class.coursera.org/compilers/lecture/subtitles?q=1_fr"></track><track kind="subtitles" srclang="it" src="https://class.coursera.org/compilers/lecture/subtitles?q=1_it"></track><track kind="subtitles" srclang="ro" src="https://class.coursera.org/compilers/lecture/subtitles?q=1_ro"></track><track kind="subtitles" srclang="ru" src="https://class.coursera.org/compilers/lecture/subtitles?q=1_ru"></track><track kind="subtitles" srclang="zh-cn" src="https://class.coursera.org/compilers/lecture/subtitles?q=1_zh-cn"></track>    </video>
+
+</div>
+
+<div id="QL_controls" style="position: absolute; top: 570px; width: 960px;">
+    <div class="prev-block">
+        <a href="#" id="QL_controls_previous" class="btn" style="display: none">&laquo; Previous</a>
+        &nbsp;
+    </div>
+
+    <div class="title-block">
+        01-01: how-to-led-blink-using-asm (5m20s)        <div class="set-cuepoint-group" style="display: none">
+            &nbsp;<a href="#" id="set-cuepoint-link" class="btn primary">Set Cuepoint</a>
+        </div>
+        <div class="speed-group" style="display: none">
+            &nbsp;
+            <a href="#" id="QL_controls_speed_minus" class="btn speed-link">-</a>
+
+            <a href="#" id="QL_controls_speed_display" class="btn">Speed: 1.00x</a>
+            <a href="#" id="QL_controls_speed_plus" class="btn speed-link">+</a>
+            <div class="speed-menu" style="display: none">
+                <a href="#" id="QL_controls_speed_150" class="btn speed-link">1.50x</a>
+                <a href="#" id="QL_controls_speed_125" class="btn speed-link">1.25x</a>
+                <a href="#" id="QL_controls_speed_100" class="btn speed-link">1.00x</a>
+
+                <a href="#" id="QL_controls_speed_075" class="btn speed-link">0.75x</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="next-block">
+        &nbsp;
+        <a href="#" id="QL_controls_next" class="btn" style="display: none">Next &raquo;</a>
+    </div>
+
+    <div class="shortcuts_link_block" >
+        Press ? for <a class="shortcuts_link" href="#">keyboard shortcuts</a>
+    </div>
+</div>
+
+<div class="shortcuts_block" aria-live="assertive" role="alert">
+Keyboard Controls
+
+<li><strong>?:</strong> Show / hide shortcuts</li>
+<li><strong>P:</strong> Play/Pause</li>
+
+<li><strong>Up:</strong> Increase volume</li>
+<li><strong>Down:</strong> Decrease volume</li>
+<li><strong>Left:</strong> Skip Back</li>
+<li><strong>Right:</strong> Skip Forward</li>
+<li><strong>-:</strong> Decrease Speed</li>
+
+<li><strong>+:</strong> Increase Speed</li>
+<li><strong>F:</strong> Toggle fullscreen</li>
+<li><strong>C:</strong> Toggle captions</li>
+<li><strong>Esc:</strong> Close video</li>
+</ul>
+
+</div>
+
+</div>
+    </div>
+</body>
+
+</html>
